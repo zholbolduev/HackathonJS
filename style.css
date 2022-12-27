@@ -1,0 +1,152 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  color: wheat;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 60px;
+  color: wheat;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 958px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: Arial;
+}
+
+.container:first-child {
+  text-align: center;
+}
+
+.auth-form {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  text-align: right;
+}
+
+.field {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.student__add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.student__add-body input {
+  height: 35px;
+  width: 300px;
+  margin: 5px 0;
+  text-align: center;
+  border: 0.5px solid rgba(137, 43, 226, 0.516);
+  border-radius: 20px;
+  color: white;
+  background-color: rgba(0, 255, 255, 0.478);
+  font-family: "Amatic SC", cursive;
+}
+.student__add-body input:hover {
+  background-color: rgba(16, 15, 15, 0.553);
+  transition: 1s;
+}
+.student__add-body input::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: wheat;
+}
+
+.student__add > div {
+  margin: 0px 0 10px;
+}
+.student__add_save button {
+  height: 35px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: rgba(137, 43, 226, 0.886);
+  border: 0.5px solid rgba(0, 0, 0, 0.374);
+  color: wheat;
+  font-family: "Courier New", Courier, monospace;
+}
+.student__add_save button:hover {
+  background-color: rgba(54, 121, 100, 0.774);
+  transition: 1.5s;
+}
+
+/* таблица start*/
+table {
+  border: 1px solid #69c;
+  border-collapse: separate;
+  empty-cells: hide;
+}
+th,
+td {
+  border: 2px solid #69c;
+}
+/* таблица end*/
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* !!!! */
+.search-box1 {
+  background: #e2ede9;
+  padding: 16px 0;
+  height: 15px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+}
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  color: rgb(6, 6, 6);
+  font-size: 16px;
+  width: 0px;
+  transition: 0.4s;
+  line-height: 40px;
+}
+.search-box1:hover > .search-txt {
+  width: 180px;
+  padding: 0 6px;
+}
+
+.search-box1:hover > .search-btn {
+  background-color: #033723a3;
+}
+.search-btn {
+  color: #022417;
+  float: right;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background: #e2ede9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+/* ???? */
+

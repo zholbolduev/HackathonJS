@@ -1,0 +1,60 @@
+{
+  "students": [
+    {
+      "name": "dosya",
+      "surname": "zholbolduev",
+      "number": "0225600015",
+      "week": "100",
+      "month": "100",
+      "id": 1
+    },
+    {
+      "name": "malika",
+      "surname": "не знаю",
+      "number": "022839201239",
+      "week": "99",
+      "month": "99",
+      "id": 2
+    },
+    {
+      "name": "ernaz",
+      "surname": "неизвестно",
+      "number": "0123234234",
+      "week": "98",
+      "month": "98",
+      "id": 3
+    },
+    {
+      "name": "Amina",
+      "surname": "Amina",
+      "number": "012323244",
+      "week": "78",
+      "month": "96",
+      "id": 4
+    },
+    {
+      "name": "erer",
+      "surname": "sdf",
+      "number": "345",
+      "week": "2345",
+      "month": "3245",
+      "id": 5
+    },
+    {
+      "name": "we",
+      "surname": "234",
+      "number": "234",
+      "week": "34",
+      "month": "234",
+      "id": 6
+    },
+    {
+      "name": "adsf",
+      "surname": "23",
+      "number": "23",
+      "week": "32",
+      "month": "32",
+      "id": 7
+    }
+  ]
+}
